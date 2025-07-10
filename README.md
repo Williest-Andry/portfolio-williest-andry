@@ -8,7 +8,7 @@ I seek a work-study placement in back-end development.
 - ## Event Manager Tapakila
 ### GitHub: [Tapakila](https://github.com/Williest-Andry/Tapakila.git)
 
-(image)
+![Tapakila image](./asset/img/Tapakila-img.png)
 
 ### Description:
 
@@ -31,7 +31,8 @@ Granular Role‑Based Access: Secure, modular permissions for Admins, Organizers
 Seamless UX: Real‑time search filters, event filtering
 
 - ## Football league management
-(image)
+
+![Football image](asset/img/Football-img.png)
 
 ### GitHub: [Football league management](https://github.com/yourUsername/fifa-championship-tracker)
 
@@ -105,7 +106,9 @@ Simulates a real-world, federated API architecture
 Reproduces real football logic, stats tracking, and ranking mechanisms
 
 - ## Restaurant Management
-(image)
+
+![Restaurant image](asset/img/Restaurant-img.png)
+
 ### GitHub: [Restaurant Management](https://github.com/yourUsername/restaurant‑springboot)
 
 ### Description:
