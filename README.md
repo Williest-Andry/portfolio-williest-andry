@@ -4,6 +4,7 @@
 
 I seek a work-study placement in back-end development.
 
+
 # Projects
 - ## Event Manager Tapakila
 ### GitHub: [Tapakila](https://github.com/Williest-Andry/Tapakila.git)
@@ -114,7 +115,7 @@ API Specification: Authored a comprehensive OpenAPI 3 spec covering all resour
 <img src="assets/icon/springboot.svg" width="60" height="60"> 
     
 
-Spring Boot
+    Spring Boot
 
 
 ---
@@ -131,3 +132,10 @@ Spring Boot
 <img src="assets/icon/nextjs-logotype-light-background.svg" width="60" height="60"> 
     
     Next.js
+
+
+# Contact information
+- Email : williestnyainaandry@gmail.com
+- Phone : +261 32 87 774 77
+- LinkedIn : https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/
+- GitHub : https://github.com/Williest-Andry
