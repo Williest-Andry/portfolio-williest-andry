@@ -8,7 +8,7 @@ I seek a work-study placement in back-end development.
 - ## Event Manager Tapakila
 ### GitHub: [Tapakila](https://github.com/Williest-Andry/Tapakila.git)
 
-![Tapakila image](./asset/img/Tapakila-img.png)
+![Tapakila image](assets/img/Tapakila-img.png)
 
 ### Description:
 
@@ -32,7 +32,7 @@ Seamless UX: Real‑time search filters, event filtering
 
 - ## Football league management
 
-![Football image](asset/img/Football-img.png)
+![Football image](assets/img/Football-img.png)
 
 ### GitHub: [Football league management](https://github.com/yourUsername/fifa-championship-tracker)
 
@@ -57,8 +57,6 @@ Testing & DevOps: Postman, JUnit
 
 Architecture: Layered (Controller, Service, Mapper, Repository) following SRP. 
 
-Live Demo / API Spec: OpenAPI YAML
-
 ### Key Features & Achievements:
 
 Modular Architecture:
@@ -69,15 +67,11 @@ Central API: fetches and aggregates data across leagues
 
 Season Management:
 
-Add/update seasons (POST /seasons, PUT /seasons/{year}/status)
-
 Auto-match generation between clubs (home & away logic)
 
 Match and Ranking Logic:
 
 Point system (win/draw/loss), ranking computation
-
-Live standings per season and per championship
 
 Advanced club stats: points, goals scored/conceded, goal difference, clean sheets
 
@@ -89,25 +83,9 @@ GET /bestPlayers with filters (top, playingTimeUnit)
 
 GET /championshipRankings: league comparison based on team stats
 
-Clean Code & SRP:
-
-Controllers limited to HTTP
-
-Services encapsulate business logic
-
-Mappers ensure decoupling
-
-Annotations used properly (no unauthorized libraries like JPA)
-
-Impact & Relevance:
-
-Simulates a real-world, federated API architecture
-
-Reproduces real football logic, stats tracking, and ranking mechanisms
-
 - ## Restaurant Management
 
-![Restaurant image](asset/img/Restaurant-img.png)
+![Restaurant image](assets/img/Restaurant-img.png)
 
 ### GitHub: [Restaurant Management](https://github.com/yourUsername/restaurant‑springboot)
 
@@ -123,21 +101,33 @@ API Spec & Testing: OpenAPI 3, Postman, JUnit
 
 Architecture: Layered design (Controller, Service, Repository, Mapper, Configuration)
 
-
-Live Demo / Postman Collection: https://github.com/yourUsername/restaurant‑springboot#postman
-
 ### Key Achievements & Impact:
 
-Robust REST Design: Implemented endpoints for CRUD operations on ingredients, dishes, and orders, with parameterized filtering (priceMinFilter / priceMaxFilter) and full error handling (400 Bad Request, 404 Not Found, 500 Server Error).
+Robust REST Design: Implemented endpoints for CRUD operations on ingredients, dishes, and orders, with parameterized filtering and full error handling (400 Bad Request, 404 Not Found, 500 Server Error).
 
-Layered Architecture: Enforced strict separation (Controllers handle HTTP, Services encapsulate business logic, Repositories access data, Mappers convert between domain and DTOs), improving maintainability and testability.
+Layered Architecture: Enforced strict separation (Controllers handle HTTP, Services encapsulate business logic, Repositories access data, Mappers), improving maintainability and testability.
 
-API Specification: Authored a comprehensive OpenAPI 3 spec covering all resources and sub‑resources (/ingredients/{id}/prices, /dishes/{id}/ingredients, /orders/{reference}/dishes/{dishId}, etc.), enabling clear consumer contracts.
+API Specification: Authored a comprehensive OpenAPI 3 spec covering all resources and sub‑resources and enabling clear consumer contracts.
 
 
 # Skills
-- Spring Boot
-- Express.js
-- Next.js
+<img src="assets/icon/springboot.svg" width="60" height="60"> 
+    
 
-# Contact
+Spring Boot
+
+
+---
+
+
+<img src="assets/icon/express.svg" width="60" height="60"> 
+
+    Express.js
+
+
+---
+
+
+<img src="assets/icon/nextjs-logotype-light-background.svg" width="60" height="60"> 
+    
+    Next.js

@@ -1,5 +1,10 @@
 title: Williest Andry
-# logo: /assets/img/
-description: It's me
-show_downloads: true
+logo: /assets/img/me-img.png
+description:
+  - GitHub: test
+    LinkedIn: test
+    Facebook:
+    Phone:
+    Email: 
+# show_downloads: true
 theme: jekyll-theme-minimal
