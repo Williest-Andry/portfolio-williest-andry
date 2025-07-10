@@ -1,6 +1,6 @@
 # Who I am?
  Hello, my name is Williest ANDRY NY AINA, I’m 20 years old and I’m a second‑year undergraduate student at the Haute École d’Informatique.
- I’m currently enrolled in the “Software Ecosystem” university program, which focuses mainly on web development and cloud operations.
+ I’m currently enrolled in the “Ecosystème Logiciel” university program, which focuses mainly on web development and cloud operations.
 
 I seek a work-study placement in back-end development.
 
@@ -135,7 +135,7 @@ API Specification: Authored a comprehensive OpenAPI 3 spec covering all resour
 
 
 # Contact information
-- Email : williestnyainaandry@gmail.com
+- Email : <williestnyainaandry@gmail.com>
 - Phone : +261 32 87 774 77
-- LinkedIn : https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/
-- GitHub : https://github.com/Williest-Andry
+- LinkedIn : <https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/>
+- GitHub : <https://github.com/Williest-Andry>
