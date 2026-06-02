@@ -54,6 +54,54 @@ Plateforme fullstack de réservation de billets d'événements (VIP, Standard, E
 
 ---
 
+## ⚽ Gestion de ligues de football
+
+![Football image](assets/img/football.png)
+
+**GitHub :** [football-championship-api](https://github.com/Williest-Andry/football-championship-api.git)
+
+### Description
+
+Système d'APIs REST en Spring Boot pour collecter et agréger les statistiques des 5 grands championnats européens (Premier League, La Liga, Bundesliga, Serie A, Ligue 1).
+
+Architecture à deux niveaux : une API locale par championnat (joueurs, clubs, matchs, classements) et une API centrale FIFA qui synchronise et calcule les statistiques globales.
+
+**La partie locale a été entièrement développée par moi.**
+
+### Technologies
+
+Backend : Spring Boot · Base de données : PostgreSQL · Spec API : OpenAPI 3
+Postman · Architecture : Couches Controller / Service / Repository / Mapper
+
+### Réalisations clés
+
+- Génération automatique des matchs aller-retour entre clubs avec calcul des points (victoire/nul/défaite), classements et statistiques avancées (buts, clean sheets, temps de jeu).
+- Endpoints analytiques avec filtres paramétrés : meilleurs joueurs, comparaison de championnats.
+- Contrat OpenAPI 3 complet couvrant toutes les ressources et sous-ressources.
+
+---
+
+## 🍽️ Gestion de restaurant
+
+![Restaurant image](assets/img/restaurant.png)
+
+**GitHub :** [restaurant-springboot](https://github.com/Williest-Andry/sale-point-restaurant.git)
+
+### Description
+
+Backend Spring Boot pour un système de gestion de restaurant : ingrédients (avec filtres prix/stock), plats (compositions), et commandes (transitions de statut). Architecture en deux niveaux avec API centrale et API par agence.
+
+### Technologies
+
+Framework : Spring Boot · Base de données : PostgreSQL · Spec : OpenAPI 3
+Architecture : Couches Controller / Service / Repository / Mapper / Configuration
+
+### Réalisations clés
+
+- CRUD complet sur ingrédients, plats et commandes avec filtrage paramétré et gestion d'erreurs structurée (400, 404, 500).
+- Séparation stricte des responsabilités : la logique métier ne touche jamais la couche HTTP.
+- Spécification OpenAPI 3 rédigée manuellement, utilisable comme contrat de consommation pour tout client tiers.
+
 # Skills
 
 <img src="assets/icon/springboot.svg" width="60" height="60">
