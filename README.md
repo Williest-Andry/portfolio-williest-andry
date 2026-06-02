@@ -19,115 +19,40 @@ et un frontend Next.js 15 avec TypeScript.
 🔗 [LinkedIn](https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/)  
 🐙 [GitHub](https://github.com/Williest-Andry)
 
-# Projects
+# Projets
 
-- ## Event Manager Tapakila
+---
 
-### GitHub: [Tapakila](https://github.com/Williest-Andry/Tapakila.git)
+## 🎯 [Tapakila — Plateforme de gestion d'événements](https://tapakila-ui.vercel.app/)
 
-![Tapakila image](assets/img/Tapakila-img.png)
+![Tapakila image](assets/img/tapakila.jpg)
 
-### Description:
+**GitHub API :** [tapakila-api](https://github.com/Williest-Andry/tapakila-api) · **GitHub UI :** [tapakila-ui](https://github.com/Williest-Andry/tapakila-ui)
 
-A full‑stack platform that lets users browse events, reserve tickets (VIP, Standard, Early Bird) and manage their bookings. It comprises a public site, an admin dashboard and an REST API with role‑based access control.
+### Description
 
-### Technologies:
+Plateforme fullstack de réservation de billets d'événements (VIP, Standard, Early Bird) avec gestion des rôles, authentification JWT et interface publique en Next.js 15.
 
-Public Frontend: Next.js 15 (App Router), Incremental Static Regeneration (ISR), Server Actions
+**Contexte :** Projet académique de groupe (2025 - [ancien Tapakila](https://github.com/Williest-Andry/Tapakila.git)) que j'ai entièrement refactorisé et étendu en solo - nouvelle architecture, nouvelle stack, nouveau code.
 
-Admin Dashboard: React 18 + Vite, Zustand for state management
+**Mon rôle :** Refactorisation complète du backend (Node.js/Express/Prisma/PostgreSQL), conception de l'API REST avec contrat OpenAPI, intégration frontend TypeScript avec Next.js 15 et Chakra UI v3, mise en place de la couche d'état avec Zustand et TanStack Query.
 
-Backend API: Node.js, Express, JWT authentication, PostgreSQL
+### Technologies
 
-### Key Achievements & Impact:
+| Couche    | Stack                                                                      |
+| --------- | -------------------------------------------------------------------------- |
+| Frontend  | Next.js 15 (App Router), TypeScript, Chakra UI v3, Zustand, TanStack Query |
+| Backend   | Node.js, Express, Prisma, PostgreSQL, JWT, OpenAPI 3                       |
+| Outillage | openapi-fetch, openapi-typescript, Zod                                     |
 
-Decoupled Architecture: Separate Next.js public site, React admin dashboard, and standalone API for improved flexibility and scalability.
+### Décisions techniques notables
 
-Granular Role‑Based Access: Secure, modular permissions for Admins, Organizers, and Users.
+- **Architecture découplée :** API REST indépendante consommée par un frontend Next.js — chaque couche déployable séparément.
+- **Typage de bout en bout :** Types générés automatiquement depuis le contrat OpenAPI (`openapi-typescript`), zéro type manuel sur les appels API.
+- **Authentification robuste :** Middleware JWT avec refresh token automatique côté client via intercepteur `openapi-fetch`.
+- **Gestion d'état structurée :** Zustand pour l'auth et le panier de réservation, TanStack Query pour le cache serveur.
 
-Seamless UX: Real‑time search filters, event filtering
-
-- ## Football league management
-
-![Football image](assets/img/Football-img.png)
-
-### GitHub: [Football league management](https://github.com/yourUsername/fifa-championship-tracker)
-
-### Description:
-
-A two-level REST API system built with Spring Boot to help FIFA collect, track, and analyze statistics from Europe’s top five football leagues (Premier League, La Liga, Bundesliga, Serie A, Ligue 1). The system is divided into:
-
-A local API for each championship: registers data on players, clubs, matches, and stats. **It was fully developed by me.**
-
-A central API for FIFA: synchronizes data from all championships and computes global statistics on teams, players, and leagues.
-
-The project simulates real-world football logic, including club compositions, match results, point systems, season management, and data-driven rankings.
-
-### Technologies:
-
-Backend: Spring Boot
-
-Database: PostgreSQL
-
-API Design: OpenAPI 3, YAML specification
-
-Testing & DevOps: Postman, JUnit
-
-Architecture: Layered (Controller, Service, Mapper, Repository) following SRP.
-
-### Key Features & Achievements:
-
-Modular Architecture:
-
-Championship APIs: handle players, clubs, matches, and season stats
-
-Central API: fetches and aggregates data across leagues
-
-Season Management:
-
-Auto-match generation between clubs (home & away logic)
-
-Match and Ranking Logic:
-
-Point system (win/draw/loss), ranking computation
-
-Advanced club stats: points, goals scored/conceded, goal difference, clean sheets
-
-Player stats: goals and total play time
-
-Filtering & Analytics:
-
-GET /bestPlayers with filters (top, playingTimeUnit)
-
-GET /championshipRankings: league comparison based on team stats
-
-- ## Restaurant Management
-
-![Restaurant image](assets/img/Restaurant-img.png)
-
-### GitHub: [Restaurant Management](https://github.com/yourUsername/restaurant‑springboot)
-
-### Description:
-
-A fully modular Spring Boot backend for a restaurant management system. It exposes RESTful endpoints to manage ingredients (with dynamic price and stock filters), dishes (with ingredient composition), and orders (with status transitions). The project enforces a clean separation of concerns (Controllers, Services, Repositories, Mappers, Configurations), provides an OpenAPI 3 specification. Finally, it implements a two‑tier architecture with branch‑level and central APIs.
-
-### Technologies:
-
-Framework: Spring Boot
-
-Database : PostgreSQL
-
-API Spec & Testing: OpenAPI 3, Postman, JUnit
-
-Architecture: Layered design (Controller, Service, Repository, Mapper, Configuration)
-
-### Key Achievements & Impact:
-
-Robust REST Design: Implemented endpoints for CRUD operations on ingredients, dishes, and orders, with parameterized filtering and full error handling (400 Bad Request, 404 Not Found, 500 Server Error).
-
-Layered Architecture: Enforced strict separation (Controllers handle HTTP, Services encapsulate business logic, Repositories access data, Mappers), improving maintainability and testability.
-
-API Specification: Authored a comprehensive OpenAPI 3 spec covering all resources and sub‑resources and enabling clear consumer contracts.
+---
 
 # Skills
 
