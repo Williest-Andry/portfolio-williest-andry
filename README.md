@@ -1,12 +1,28 @@
-# Who I am?
- Hello, my name is Williest ANDRY NY AINA, I’m 20 years old and I’m a second‑year undergraduate student at the Haute École d’Informatique.
- I’m currently enrolled in the “Ecosystème Logiciel” university program, which focuses mainly on web development and cloud operations.
+# Williest ANDRY NY AINA
 
-I seek a work-study placement in back-end development.
+Étudiant en 3ème année de licence en informatique à la Haute École d'Informatique,
+spécialisation Écosystème Logiciel (développement web et cloud).
 
+Je recherche un stage en développement fullstack. Je suis disponible immédiatement,
+basé à Antananarivo.
+
+Mon approche : concevoir des architectures simples et propres, écrire du code maintenable,
+et livrer des interfaces utilisables. Je maîtrise aussi bien la construction d'une
+API REST sécurisée que l'intégration côté frontend avec des outils modernes.
+
+Actuellement, je finalise **Tapakila** - une plateforme de gestion d'événements
+fullstack que j'ai refactorisée et étendue en solo, avec une API Node.js/Express/PostgreSQL
+et un frontend Next.js 15 avec TypeScript.
+
+📧 williestnyainaandry@gmail.com  
+📞 +261 32 87 774 77  
+🔗 [LinkedIn](https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/)  
+🐙 [GitHub](https://github.com/Williest-Andry)
 
 # Projects
+
 - ## Event Manager Tapakila
+
 ### GitHub: [Tapakila](https://github.com/Williest-Andry/Tapakila.git)
 
 ![Tapakila image](assets/img/Tapakila-img.png)
@@ -38,6 +54,7 @@ Seamless UX: Real‑time search filters, event filtering
 ### GitHub: [Football league management](https://github.com/yourUsername/fifa-championship-tracker)
 
 ### Description:
+
 A two-level REST API system built with Spring Boot to help FIFA collect, track, and analyze statistics from Europe’s top five football leagues (Premier League, La Liga, Bundesliga, Serie A, Ligue 1). The system is divided into:
 
 A local API for each championship: registers data on players, clubs, matches, and stats. **It was fully developed by me.**
@@ -48,7 +65,7 @@ The project simulates real-world football logic, including club compositions, ma
 
 ### Technologies:
 
-Backend: Spring Boot 
+Backend: Spring Boot
 
 Database: PostgreSQL
 
@@ -56,7 +73,7 @@ API Design: OpenAPI 3, YAML specification
 
 Testing & DevOps: Postman, JUnit
 
-Architecture: Layered (Controller, Service, Mapper, Repository) following SRP. 
+Architecture: Layered (Controller, Service, Mapper, Repository) following SRP.
 
 ### Key Features & Achievements:
 
@@ -91,14 +108,16 @@ GET /championshipRankings: league comparison based on team stats
 ### GitHub: [Restaurant Management](https://github.com/yourUsername/restaurant‑springboot)
 
 ### Description:
+
 A fully modular Spring Boot backend for a restaurant management system. It exposes RESTful endpoints to manage ingredients (with dynamic price and stock filters), dishes (with ingredient composition), and orders (with status transitions). The project enforces a clean separation of concerns (Controllers, Services, Repositories, Mappers, Configurations), provides an OpenAPI 3 specification. Finally, it implements a two‑tier architecture with branch‑level and central APIs.
 
 ### Technologies:
-Framework: Spring Boot 
 
-Database : PostgreSQL 
+Framework: Spring Boot
 
-API Spec & Testing: OpenAPI 3, Postman, JUnit 
+Database : PostgreSQL
+
+API Spec & Testing: OpenAPI 3, Postman, JUnit
 
 Architecture: Layered design (Controller, Service, Repository, Mapper, Configuration)
 
@@ -110,32 +129,20 @@ Layered Architecture: Enforced strict separation (Controllers handle HTTP, Servi
 
 API Specification: Authored a comprehensive OpenAPI 3 spec covering all resources and sub‑resources and enabling clear consumer contracts.
 
-
 # Skills
-<img src="assets/icon/springboot.svg" width="60" height="60"> 
-    
+
+<img src="assets/icon/springboot.svg" width="60" height="60">
 
     Spring Boot
 
-
 ---
 
-
-<img src="assets/icon/express.svg" width="60" height="60"> 
+<img src="assets/icon/express.svg" width="60" height="60">
 
     Express.js
 
-
 ---
-
 
 <img src="assets/icon/nextjs-logotype-light-background.svg" width="60" height="60"> 
     
     Next.js
-
-
-# Contact information
-- Email : <williestnyainaandry@gmail.com>
-- Phone : +261 32 87 774 77
-- LinkedIn : <https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/>
-- GitHub : <https://github.com/Williest-Andry>
