@@ -85,13 +85,13 @@ Architecture : Couches Controller / Service / Repository / Mapper
 
 **Télécharger l'APK :** [Google Drive](https://drive.google.com/file/d/1GG8gQkYXyIyyoBsHDTXU6rX9dc7BlB4X/view?usp=drive_link)  
 **Vidéo de démo :** [Voir la démonstration](https://drive.google.com/file/d/1tN60N91cRaIDys7yjPHTHvZVwI2aoBI_/view?usp=drive_link)  
-**GitHub :** [money-wise](https://github.com/Williest-Andry/fintrack-mobile) _(copie publique - projet collaboratif)_
+**GitHub :** [public-money-wise](https://github.com/Williest-Andry/public-money-wise.git) _(copie publique - projet collaboratif)_
 
 ### Description
 
 Application mobile React Native de gestion financière personnelle : suivi des dépenses quotidiennes/mensuelles/annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
 
-Projet réalisé en groupe de 5 dans le cadre d'un examen académique.
+Projet réalisé en groupe de 5 dans le cadre d'un examen académique - [code source privé](https://github.com/Tsantanny/money-wise).
 
 ### Technologies
 
