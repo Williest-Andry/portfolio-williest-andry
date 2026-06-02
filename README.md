@@ -71,13 +71,44 @@ Architecture à deux niveaux : une API locale par championnat (joueurs, clubs, m
 ### Technologies
 
 Backend : Spring Boot · Base de données : PostgreSQL · Spec API : OpenAPI 3
-Postman · Architecture : Couches Controller / Service / Repository / Mapper
+Architecture : Couches Controller / Service / Repository / Mapper
 
 ### Réalisations clés
 
 - Génération automatique des matchs aller-retour entre clubs avec calcul des points (victoire/nul/défaite), classements et statistiques avancées (buts, clean sheets, temps de jeu).
 - Endpoints analytiques avec filtres paramétrés : meilleurs joueurs, comparaison de championnats.
 - Contrat OpenAPI 3 complet couvrant toutes les ressources et sous-ressources.
+
+---
+
+## 💰 MoneyWise — Application mobile de gestion financière personnelle
+
+**Télécharger l'APK :** [Google Drive](https://drive.google.com/file/d/1GG8gQkYXyIyyoBsHDTXU6rX9dc7BlB4X/view?usp=drive_link)  
+**Vidéo de démo :** [Voir la démonstration](https://drive.google.com/file/d/1tN60N91cRaIDys7yjPHTHvZVwI2aoBI_/view?usp=drive_link)  
+**GitHub :** [money-wise](https://github.com/Williest-Andry/fintrack-mobile) _(copie publique - projet collaboratif)_
+
+### Description
+
+Application mobile React Native de gestion financière personnelle : suivi des dépenses quotidiennes/mensuelles/annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
+
+Projet réalisé en groupe de 5 dans le cadre d'un examen académique.
+
+### Technologies
+
+React Native · Expo · Typescript · PostgreSQL · Google Auth · Biométrie (Fingerprint) · Notifications push · Génération PDF
+
+### Mon rôle
+
+- **Module Objectifs (Goals) — développé intégralement par moi :** ajout, modification, suppression et affichage paginé des objectifs de dépenses/revenus avec filtres par intervalle de dates ; notifications push à chaque échéance redirigeant vers l'objectif concerné.
+- **Modification de portefeuille :** formulaire d'édition avec validation et mise à jour des statistiques associées.
+- **Affichage des projets avec filtres :** écran de liste des projets budget avec filtrage paramétré et navigation vers la vue détaillée.
+
+### Ce qui rend ce projet concret
+
+- APK fonctionnel téléchargeable et installable directement
+- Authentification biométrique (sans mot de passe après première connexion)
+- Notifications push paramétrables par l'utilisateur
+- Fonctionnalité premium avec génération et partage de PDF
 
 ---
 
