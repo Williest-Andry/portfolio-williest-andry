@@ -23,8 +23,6 @@ et un frontend Next.js 15 avec TypeScript.
 
 # Projets
 
----
-
 ## 🎯 [Tapakila — Plateforme de gestion d'événements](https://tapakila-ui.vercel.app/)
 
 ![Tapakila image](assets/img/tapakila.jpg)
