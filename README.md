@@ -133,20 +133,42 @@ Architecture : Couches Controller / Service / Repository / Mapper / Configuratio
 - Séparation stricte des responsabilités : la logique métier ne touche jamais la couche HTTP.
 - Spécification OpenAPI 3 rédigée manuellement, utilisable comme contrat de consommation pour tout client tiers.
 
-# Skills
+# Compétences
 
-<img src="assets/icon/springboot.svg" width="60" height="60">
+## Frontend
 
-    Spring Boot
+- **Next.js 15** (App Router, Server Components, middleware)
+- **React Native** (Expo)
+- **TypeScript**
+- **TanStack Query v5** (fetching, cache, synchronisation serveur)
+- **openapi-fetch / openapi-typescript** (client API typé depuis contrat OpenAPI)
+- **Zustand** (gestion d'état global)
+- **Zod** (validation de formulaires)
+- **Chakra UI v3**
+- **Tailwind CSS**
 
----
+## Backend
 
-<img src="assets/icon/express.svg" width="60" height="60">
+- **Node.js / Express** (REST API, middlewares, architecture modulaire)
+- **Spring Boot** (REST API, architecture en couches)
+- **JWT** (authentification, access token + refresh token)
+- **Prisma** (ORM, migrations)
+- **PostgreSQL**
 
-    Express.js
+## Conception & Outillage
 
----
+- **Git / GitHub** (versioning, branches, pull requests)
+- **GitHub Actions** (CI/CD — pipelines d'intégration continue)
+- **OpenAPI 3** (conception contract-first)
+- **Postman** (tests et documentation d'API)
+- **Docker** (conteneurisation, déploiement local)
+- **JUnit** (tests unitaires Java)
 
-<img src="assets/icon/nextjs-logotype-light-background.svg" width="60" height="60"> 
-    
-    Next.js
+## Notions maîtrisées
+
+- Architecture découplée frontend / backend
+- Typage de bout en bout depuis un contrat OpenAPI
+- Authentification JWT avec refresh automatique
+- Séparation des responsabilités (Controller / Service / Repository)
+- App Router Next.js : Server vs Client Components, Suspense
+- Pipeline CI/CD avec GitHub Actions
