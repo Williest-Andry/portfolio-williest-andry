@@ -16,7 +16,7 @@ et un frontend Next.js 15 avec TypeScript.
 
 📧 williestnyainaandry@gmail.com  
 📞 +261 32 87 774 77  
-🔗 [LinkedIn](https://www.linkedin.com/in/williest-andry-ny-aina-2798a5337/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/williest-andry)  
 🐙 [GitHub](https://github.com/Williest-Andry)
 
 # Projets
@@ -27,7 +27,8 @@ et un frontend Next.js 15 avec TypeScript.
 
 ![Tapakila image](assets/img/tapakila.jpg)
 
-**GitHub API :** [tapakila-api](https://github.com/Williest-Andry/tapakila-api) · **GitHub UI :** [tapakila-ui](https://github.com/Williest-Andry/tapakila-ui)
+**GitHub API :** [tapakila-api](https://github.com/Williest-Andry/tapakila-api) · **GitHub UI :** [tapakila-ui](https://github.com/Williest-Andry/tapakila-ui) ·
+**Démo live :** [tapakila-ui](https://tapakila-ui.vercel.app/)
 
 ### Description
 
@@ -147,7 +148,7 @@ Architecture : Couches Controller / Service / Repository / Mapper / Configuratio
 - **Zustand** (gestion d'état global)
 - **Zod** (validation de formulaires)
 - **Chakra UI v3**
-- **Tailwind CSS**
+- **Nativewind + Tailwind CSS**
 
 ## Backend
 
