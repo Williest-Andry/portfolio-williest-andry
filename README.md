@@ -87,6 +87,8 @@ Architecture : Couches Controller / Service / Repository / Mapper
 **Vidéo de démo :** [Voir la démonstration](https://drive.google.com/file/d/1tN60N91cRaIDys7yjPHTHvZVwI2aoBI_/view?usp=drive_link)  
 **GitHub :** [public-money-wise](https://github.com/Williest-Andry/public-money-wise.git) _(copie publique - projet collaboratif)_
 
+![MoneyWise image](assets/img/money-wise.png)
+
 ### Description
 
 Application mobile React Native de gestion financière personnelle : suivi des dépenses quotidiennes/mensuelles/annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
