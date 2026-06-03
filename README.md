@@ -119,11 +119,11 @@ React Native · Expo · Typescript · PostgreSQL · Google Auth · Biométrie (F
 
 ![Restaurant image](assets/img/restaurant.png)
 
-**GitHub :** [restaurant-springboot](https://github.com/Williest-Andry/sale-point-restaurant.git)
+**GitHub :** [sale-point-restaurant](https://github.com/Williest-Andry/sale-point-restaurant.git)
 
 ### Description
 
-Backend Spring Boot pour un système de gestion de restaurant : ingrédients (avec filtres prix/stock), plats (compositions), et commandes (transitions de statut). Architecture en deux niveaux avec API centrale et API par agence.
+Backend Spring Boot pour un système de gestion de restaurant : ingrédients (avec filtres prix/stock), plats (compositions), et commandes (transitions de statut). Architecture en deux niveaux avec API centrale et API par point de vente (**développée par moi.**).
 
 ### Technologies
 
