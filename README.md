@@ -19,6 +19,8 @@ et un frontend Next.js 15 avec TypeScript.
 🔗 [LinkedIn](https://www.linkedin.com/in/williest-andry)  
 🐙 [GitHub](https://github.com/Williest-Andry)
 
+---
+
 # Projets
 
 ---
@@ -135,6 +137,8 @@ Architecture : Couches Controller / Service / Repository / Mapper / Configuratio
 - CRUD complet sur ingrédients, plats et commandes avec filtrage paramétré et gestion d'erreurs structurée (400, 404, 500).
 - Séparation stricte des responsabilités : la logique métier ne touche jamais la couche HTTP.
 - Spécification OpenAPI 3 rédigée manuellement, utilisable comme contrat de consommation pour tout client tiers.
+
+---
 
 # Compétences
 
