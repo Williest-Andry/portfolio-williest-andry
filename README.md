@@ -3,16 +3,11 @@
 Étudiant en 3ème année de licence en informatique à la Haute École d'Informatique,
 spécialisation Écosystème Logiciel (développement web et cloud).
 
-Je recherche un stage en développement fullstack. Je suis disponible immédiatement,
-basé à Antananarivo.
-
 Mon approche : concevoir des architectures simples et propres, écrire du code maintenable,
 et livrer des interfaces utilisables. Je maîtrise aussi bien la construction d'une
 API REST sécurisée que l'intégration côté frontend avec des outils modernes.
 
-Actuellement, je finalise **Tapakila** - une plateforme de gestion d'événements
-fullstack que j'ai refactorisée et étendue en solo, avec une API Node.js/Express/PostgreSQL
-et un frontend Next.js 15 avec TypeScript.
+Actuellement, je suis stagiaire en développement web chez [AllForOne Madagascar.](https://www.linkedin.com/company/allforonemg/posts/?feedView=all)
 
 📧 williestnyainaandry@gmail.com  
 📞 +261 32 87 774 77  
