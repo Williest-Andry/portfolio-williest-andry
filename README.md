@@ -32,35 +32,82 @@ Projet : **Madadiaspora**, plateforme qui relie la diaspora malagasy à Madagasc
 
 # Projets
 
-## [Tapakila](https://tapakila-ui.vercel.app/) : plateforme de réservation d'événements
+## [Tapakila - Plateforme de gestion d'événements](https://tapakila-ui.vercel.app/)
 
 ![Tapakila image](assets/img/tapakila.jpg)
 
-[API](https://github.com/Williest-Andry/tapakila-api) · [UI](https://github.com/Williest-Andry/tapakila-ui) · [Démo live](https://tapakila-ui.vercel.app/)
+**GitHub API :** [tapakila-api](https://github.com/Williest-Andry/tapakila-api) · **GitHub UI :** [tapakila-ui](https://github.com/Williest-Andry/tapakila-ui) · **Démo live :** [tapakila-ui](https://tapakila-ui.vercel.app/)
 
 <!-- Compte de démo : décommente la ligne suivante après avoir créé le compte
 **Compte de démo :** e-mail `A_REMPLIR` · mot de passe `A_REMPLIR`
 -->
 
-Plateforme fullstack de billetterie (VIP, Standard, Early Bird) avec rôles et authentification JWT. Projet académique de groupe (2025) que j'ai entièrement refactorisé en solo : backend, API REST avec contrat OpenAPI, frontend et gestion d'état.
+### Description
 
-- **Stack :** Next.js 15, TypeScript, Chakra UI v3, Zustand, TanStack Query · Node.js, Express, Prisma, PostgreSQL, JWT, OpenAPI 3
-- **Points clés :** types générés depuis le contrat OpenAPI (aucun type manuel sur les appels API), refresh token automatique côté client.
+Plateforme de réservation de billets d'événements (VIP, Standard, Early Bird) avec gestion des rôles, authentification JWT et interface publique en Next.js 15.
 
-## [MoneyWise](https://github.com/Williest-Andry/public-money-wise.git) : application mobile de finances personnelles
+**Contexte :** projet académique de groupe (2025 - [ancien Tapakila](https://github.com/Williest-Andry/Tapakila.git)) que j'ai entièrement refactorisé et étendu en solo : nouvelle architecture, nouvelle stack, nouveau code.
+
+**Mon rôle :** **refactorisation complète du backend** (Node.js / Express / TypeScript / Prisma / PostgreSQL), **conception de l'API REST avec contrat OpenAPI**, **intégration frontend** en TypeScript avec Next.js 15 et Chakra UI v3, mise en place de la couche d'état avec Zustand et TanStack Query.
+
+### Technologies
+
+| Couche    | Stack                                                                      |
+| --------- | -------------------------------------------------------------------------- |
+| Frontend  | Next.js 15 (App Router), TypeScript, Chakra UI v3, Zustand, TanStack Query |
+| Backend   | Node.js, Express, TypeScript, Prisma, PostgreSQL, JWT, OpenAPI 3           |
+| Outillage | openapi-fetch, openapi-typescript, Zod                                         |
+
+### Décisions techniques notables
+
+- **Architecture découplée :** API REST indépendante consommée par un frontend Next.js, chaque couche étant déployable séparément.
+- **Typage de bout en bout :** types générés automatiquement depuis le contrat OpenAPI (`openapi-typescript`), zéro type manuel sur les appels API.
+- **Authentification robuste :** middleware JWT avec refresh token automatique côté client via intercepteur `openapi-fetch`.
+
+<br>
+
+---
+
+## MoneyWise - Application mobile de gestion financière personnelle
+
+**Télécharger l'APK :** [Google Drive](https://drive.google.com/file/d/1GG8gQkYXyIyyoBsHDTXU6rX9dc7BlB4X/view?usp=drive_link)  
+**Vidéo de démo :** [Voir la démonstration](https://drive.google.com/file/d/1tN60N91cRaIDys7yjPHTHvZVwI2aoBI_/view?usp=drive_link)  
+**GitHub :** [public-money-wise](https://github.com/Williest-Andry/public-money-wise.git) _(copie publique du projet collaboratif)_
 
 ![MoneyWise image](assets/img/money-wise-resize.png)
 
-[APK](https://drive.google.com/file/d/1GG8gQkYXyIyyoBsHDTXU6rX9dc7BlB4X/view?usp=drive_link) · [Vidéo de démo](https://drive.google.com/file/d/1tN60N91cRaIDys7yjPHTHvZVwI2aoBI_/view?usp=drive_link)
+### Description
 
-Projet de groupe (5 personnes, examen académique) en React Native, Expo et TypeScript. **Module Objectifs développé intégralement par moi :** CRUD, filtres par dates, notifications push à l'échéance.
+Application mobile de gestion financière personnelle : suivi des dépenses quotidiennes, mensuelles et annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
+
+Projet réalisé en groupe de 5 dans le cadre d'un examen académique. Le dépôt d'origine est privé.
+
+### Technologies
+
+React Native · Expo · TypeScript · PostgreSQL · Google Auth · Biométrie (empreinte) · Notifications push · Génération PDF
+
+### Mon rôle
+
+- **Module Objectifs (Goals), développé intégralement par moi :** ajout, modification, suppression et affichage paginé des objectifs de dépenses et de revenus, avec filtres par intervalle de dates, notifications push à chaque échéance, qui redirigent vers l'objectif concerné.
+- **Modification de portefeuille :** formulaire d'édition avec validation et mise à jour des statistiques associées.
+- **Affichage des projets avec filtres :** écran de liste des projets budget avec filtrage paramétré et navigation vers la vue détaillée.
+
+### Ce qui rend ce projet concret
+
+- APK fonctionnel, téléchargeable et installable directement
+- Notifications push paramétrables par l'utilisateur
+- Fonctionnalité premium avec génération et partage de PDF
+
+<br>
+
+---
 
 ## Autres projets
 
-- **[Ligues de football](https://github.com/Williest-Andry/football-championship-api.git)** : APIs REST Spring Boot / PostgreSQL / OpenAPI 3 (statistiques des 5 grands championnats). J'ai développé seul la partie locale.
-- **[Gestion de restaurant](https://github.com/Williest-Andry/sale-point-restaurant.git)** : backend Spring Boot / PostgreSQL / OpenAPI 3 en deux niveaux (API centrale et API par point de vente, dont j'ai développé la partie point de vente).
+- **[Gestion de ligues de football](https://github.com/Williest-Andry/football-championship-api.git)** : APIs REST Spring Boot / PostgreSQL / OpenAPI 3 qui agrègent les statistiques des 5 grands championnats européens. Une API locale par championnat et une API centrale qui synchronise et calcule les statistiques globales. J'ai développé seul la partie locale : génération des matchs aller-retour, classements, statistiques avancées, endpoints analytiques filtrés.
+- **[Gestion de restaurant](https://github.com/Williest-Andry/sale-point-restaurant.git)** : backend Spring Boot / PostgreSQL / OpenAPI 3 (ingrédients, plats, commandes avec transitions de statut), en deux niveaux : API centrale et API par point de vente, dont j'ai développé la partie point de vente. Architecture Controller / Service / Repository / Mapper et gestion d'erreurs structurée (400, 404, 500).
 
----
+<br>
 
 # Compétences
 
