@@ -84,7 +84,7 @@ Projet réalisé en groupe de 5 dans le cadre d'un examen académique. Le dépô
 
 ### Technologies
 
-React Native · Expo · TypeScript · PostgreSQL · Google Auth · Biométrie (empreinte) · Notifications push · Génération PDF
+React Native · Expo · TypeScript · PostgreSQL · Google Auth · Biométrie (Fingerprint) · Notifications push · Génération PDF
 
 ### Mon rôle
 
@@ -111,12 +111,44 @@ React Native · Expo · TypeScript · PostgreSQL · Google Auth · Biométrie (e
 
 # Compétences
 
-- **Frontend :** Next.js, React, React Native, React Admin, TypeScript, TanStack Query, Axios, React Hook Form, Zod, Zustand, Tailwind CSS, shadcn/ui, Chakra UI
-- **Backend :** Node.js / Express, Spring Boot, JWT, Prisma, PostgreSQL
-- **Outils :** Git, GitHub, GitLab, GitHub Actions, OpenAPI 3, Postman, Docker, Jira, Trello
+## Frontend
 
-# Formation et langues
+JavaScript, TypeScript, React, Next.js, React Native, React Admin, TanStack Query, Axios, React Hook Form, Zod, Zustand, Tailwind CSS, shadcn/ui, Chakra UI
 
-**Licence informatique**, Haute École d'Informatique, Antananarivo (octobre 2023 – novembre 2026) · POO, API REST, interface web, sécurité informatique.
+## Backend
 
-Français B2 (TV5MONDE) · Anglais : lecture de documentation technique · Malagasy : langue maternelle
+Node.js, Express.js, Spring Boot, JWT, Prisma, PostgreSQL
+
+## Outils
+
+Git, GitHub, GitLab, GitHub Actions, OpenAPI 3, Postman, Docker, Jira, Trello
+
+## Notions
+
+- Next.js App Router
+- Typage de bout en bout depuis un contrat OpenAPI
+- Architecture découplée frontend / backend
+- Intégration de maquettes Figma responsive
+- Gestion systématique des états d'interface (chargement, vide, erreur)
+- Authentification JWT avec refresh automatique
+- Séparation des responsabilités (Controller / Service / Repository)
+- Pipeline CI/CD avec GitHub Actions
+
+<br>
+
+# Formation
+
+**Licence informatique** - Haute École d'Informatique, Antananarivo, Octobre 2023 – Novembre 2026
+
+Soutenance validée, diplôme en attente de délivrance.
+
+Parcours **Écosystèmes Logiciels (développement web)**. 
+Cours clés : POO, API REST, Interface web, Sécurité informatique.
+
+<br>
+
+# Langues
+
+- Français : B2 (TV5MONDE)
+- Anglais : lecture de documentation technique
+- Malagasy : langue maternelle
