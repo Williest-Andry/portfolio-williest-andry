@@ -38,7 +38,7 @@ Projet : **Madadiaspora**, plateforme qui relie la diaspora malagasy à Madagasc
 
 **GitHub API :** [tapakila-api](https://github.com/Williest-Andry/tapakila-api) · **GitHub UI :** [tapakila-ui](https://github.com/Williest-Andry/tapakila-ui) · **Démo live :** [tapakila-ui](https://tapakila-ui.vercel.app/)
 
-<!-- Compte de démo : décommente la ligne suivante après avoir créé le compte
+<!-- 
 **Compte de démo :** e-mail `A_REMPLIR` · mot de passe `A_REMPLIR`
 -->
 
