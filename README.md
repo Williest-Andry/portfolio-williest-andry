@@ -44,9 +44,9 @@ Projet : **Madadiaspora**, plateforme qui relie la diaspora malagasy à Madagasc
 
 ### Description
 
-Plateforme de réservation de billets d'événements (VIP, Standard, Early Bird) avec gestion des rôles, authentification JWT et interface publique en Next.js 15.
+**Plateforme de réservation de billets d'événements** (VIP, Standard, Early Bird) avec gestion des rôles, authentification JWT et interface publique en Next.js 15.
 
-**Contexte :** projet académique de groupe (2025 - [ancien Tapakila](https://github.com/Williest-Andry/Tapakila.git)) que j'ai entièrement refactorisé et étendu en solo : nouvelle architecture, nouvelle stack, nouveau code.
+**Contexte :** projet académique de groupe (2025 - [ancien Tapakila](https://github.com/Williest-Andry/Tapakila.git)) que j'ai entièrement refactorisé et étendu en solo : **nouvelle architecture, nouvelle stack, nouveau code**.
 
 **Mon rôle :** **refactorisation complète du backend** (Node.js / Express / TypeScript / Prisma / PostgreSQL), **conception de l'API REST avec contrat OpenAPI**, **intégration frontend** en TypeScript avec Next.js 15 et Chakra UI v3, mise en place de la couche d'état avec Zustand et TanStack Query.
 
@@ -78,9 +78,9 @@ Plateforme de réservation de billets d'événements (VIP, Standard, Early Bird)
 
 ### Description
 
-Application mobile de gestion financière personnelle : suivi des dépenses quotidiennes, mensuelles et annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
+Application mobile de **gestion financière personnelle** : suivi des dépenses quotidiennes, mensuelles et annuelles, objectifs financiers avec notifications, portefeuilles multi-devises, et une fonctionnalité premium de gestion de budget de projets avec génération de PDF.
 
-Projet réalisé en groupe de 5 dans le cadre d'un examen académique. Le dépôt d'origine est privé.
+Projet réalisé **en groupe de 5** dans le cadre d'un examen académique. Le dépôt d'origine est privé.
 
 ### Technologies
 
@@ -104,8 +104,8 @@ React Native · Expo · TypeScript · PostgreSQL · Google Auth · Biométrie (F
 
 ## Autres projets
 
-- **[Gestion de ligues de football](https://github.com/Williest-Andry/football-championship-api.git)** : APIs REST Spring Boot / PostgreSQL / OpenAPI 3 qui agrègent les statistiques des 5 grands championnats européens. Une API locale par championnat et une API centrale qui synchronise et calcule les statistiques globales. J'ai développé seul la partie locale : génération des matchs aller-retour, classements, statistiques avancées, endpoints analytiques filtrés.
-- **[Gestion de restaurant](https://github.com/Williest-Andry/sale-point-restaurant.git)** : backend Spring Boot / PostgreSQL / OpenAPI 3 (ingrédients, plats, commandes avec transitions de statut), en deux niveaux : API centrale et API par point de vente, dont j'ai développé la partie point de vente. Architecture Controller / Service / Repository / Mapper et gestion d'erreurs structurée (400, 404, 500).
+- **[Gestion de ligues de football](https://github.com/Williest-Andry/football-championship-api.git)** : **APIs REST Spring Boot / PostgreSQL / OpenAPI 3** qui agrègent les statistiques des **5 grands championnats européens**. Une **API locale** par championnat et une **API centrale** qui synchronise et calcule les statistiques globales. **J'ai développé seul la partie locale** : génération des matchs aller-retour, classements, statistiques avancées, endpoints analytiques filtrés.
+- **[Gestion de restaurant](https://github.com/Williest-Andry/sale-point-restaurant.git)** : **APIs Rest Spring Boot / PostgreSQL / OpenAPI 3** (ingrédients, plats, commandes avec transitions de statut), en deux niveaux : **API centrale** et **API par point de vente**, dont **j'ai développé la partie point de vente**. Architecture Controller / Service / Repository / Mapper et gestion d'erreurs structurée (400, 404, 500).
 
 <br>
 
